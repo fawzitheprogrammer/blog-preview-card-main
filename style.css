@@ -60,6 +60,21 @@ body {
     
 }
 
+.author {
+    display: flex;
+    align-items: center; 
+}
+
+.author  img {
+    width: 30px;
+}
+
+.author .author-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
 
 @media (max-width:375px) {
    .attribution{
