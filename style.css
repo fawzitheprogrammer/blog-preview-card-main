@@ -1,0 +1,19 @@
+body {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+    background-color: white;
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.attribution img {
+    margin: 18px;
+    border-radius: 10px;
+}
