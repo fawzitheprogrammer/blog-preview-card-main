@@ -4,16 +4,67 @@ body {
     height: 100vh;
     align-items: center;
     background-color: hsl(47, 88%, 63%);
+    font-family: 'Poppins';
 }
 
 .attribution {
+    padding: 18px 18px;
     background-color: white;
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 300px;
     border-radius: 10px;
+    justify-content: top;
+    display: flex;
+    flex-direction: column;
+    box-shadow:8px 8px 0px ;
+    border: black 1px solid;
 }
 
 .attribution img {
-    margin: 18px;
     border-radius: 10px;
+    width: auto;
+}
+
+.attribution .badge {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    padding: 10px 10px;
+    margin: 10px 0px 0px;
+    width: 60px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.attribution .published-date {
+
+    color: black;
+    padding: 10px 0px;
+    font-size: 14px;
+    justify-content: left;
+    align-items: center;
+    display: grid;
+}
+
+.course-info .header {
+    font-size: 26px;
+    font-weight: bolder;
+   
+}
+
+.course-info p {
+    color: hsl(0, 0%, 50%);
+    
+}
+
+
+@media (max-width:375px) {
+   .attribution{
+    width: 250px;
+  
+    font-size: 0.7rem;
+   }
 }
